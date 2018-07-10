@@ -1,10 +1,16 @@
-#LetsEat 
+LetsEat, iOS Mobile Application
 
-## Project Outline
+Language: Swift
+
+Project Outline
+This application starts with an introduction of all its feature, shown once to new user.
+Inside the application, there are three features: dine out, cook and exercise.
+[Dine out] Select food category to search nearby restaurants. Get driving directions or check out the food images. Call restaurants or save phone to contact list.
+[Cook] Create cooking albums. Take images or load images from library with machine learning image recognition feature. Edit photo info while listening to music. Email or text photos with descriptions.
+[Exercise] Check out number of steps and walking distance recorded from HealthKit. Enter caffine and protein consumption. Plan exercise with location based reminder or start exercise with timer.
 
 
-
-## APIs Used:
+APIs Used:
 -MapKit: [DineOut]search location near user, custom annotations, launch navigation
          [Exercise]overlay direction on map
 -Table View: [DineOut]Table view with custom cells with images, variable height;
@@ -43,7 +49,7 @@
 -Controls API: Slider, label, button(custom image), segment control, text view are all used in user friendly fashion (disable button appropriately i.e. in timer, no cover up textfield/view with keyboard, tap out to dismiss etc.)
 -Alert: Used extensively everywhere in app 
 
-## UIDesign: 
+UIDesign: 
 Very user friendly with extensively use of alerts and takes care of situations where the user has no wifi access or no photo sharing app installed.
 Looks good on iPhone/ipod devices in all orientations, custom buttons, background etc.
 
