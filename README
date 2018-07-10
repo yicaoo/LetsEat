@@ -1,16 +1,14 @@
-LetsEat 
+#LetsEat 
 
-1.Detailed Explanation:
-(Please note that one big feature of the app is that it considers many scenarios the user might run into and provide alerts and actions => no wifi, no instagram etc.)
-(1) Upon first time launch app: scroll through 3 pages of introduction, wait on the last page to receive a key drop. Click on the key to go to the menu. Shake phone for randomly enter theme or click on each button to enter a desired theme
-(2)DineOut: Click on the table view cell or shake. Search by name/filter table by category in the search bar. The map is zoomed around the area where search results are found. Click on any of the pins and then click on the car for driving navigation or the inspect button go to webkit view. Play around the the google search or any website. Navigate back or forward in web pages by clicking on back and forward buttons. Click on the phone button to call the restaurant. Click on the phone book to add the number to contact (no duplicated entry will be allowed and will have  a nice reminder)
-(3)Cook: create document, load in images from library or take a picture. If agree with machine learning prediction, a title will be added automatically to the new image. If disagree, newly added image will have a default title. Click on the title to edit (max number of character limit applies). Drag and drop collection view cell to reorder images. Click on the trash button to delete images. Click on the instagram-like button in each cell to share image on instagram. The user will be taken to the App Store if no instagram is found on the device. Click on the magnifying glass near each image to go to add image descriptions. Click on segment control to edit background. Note that the textview background can be set through the app's user setting: try it out by leaving the app to go to settings, under LETSEAT SETTINGS change textview background to a different color, and go back to app, the change will be reflected.
-Play music with the music player button on top, adjust volume, advance to next song by shaking the phone or click on the buttons. Click on the text button to send text messages with desired image and description. Click the email button to send email with image and description. Save the description by clicking save, cancel current edits with cancel button. 
-(4) Exercise: this feature connects to the HealthKit on the device. Flip around the date picker to check out waking steps and distance for different dates. Enter caffeine and protein consumption and click the disk-writing button to save data to HealthKit (can check by going to HealthKit). Click on the running person button to bring up popover timer. Click on the calendar to the event table page. Edit event name, click on the location table view cell to map modal view. Click to add location reminder to calendar. Add timer alarm by selecting start, end and at time (input is validated and alert is presented accordingly) In map modal, click on the route button to see overlay of driving route drawing on map, click on the check button to select the location for calendar location reminder. 
+## Project Outline
 
-2.APIs Used:
--MapKit: [DineOut]search location near user, custom annotations, launch navigation [Exercise]overlay direction on map
--Table View: [DineOut]Table view with custom cells with images, variable height;[Exercise] Table view with static cells, section header, used as form 
+
+
+## APIs Used:
+-MapKit: [DineOut]search location near user, custom annotations, launch navigation
+         [Exercise]overlay direction on map
+-Table View: [DineOut]Table view with custom cells with images, variable height;
+             [Exercise] Table view with static cells, section header, used as form 
 -UIPageControl&UIPageViewController: when app is launched for the first time, walk through new user with app features
 -Animation API: animation on key drop and menu page pulsating effect
 -UISearchController: search by name and filter food by category in the dine out table view(dynamically update)
@@ -45,7 +43,9 @@ Play music with the music player button on top, adjust volume, advance to next s
 -Controls API: Slider, label, button(custom image), segment control, text view are all used in user friendly fashion (disable button appropriately i.e. in timer, no cover up textfield/view with keyboard, tap out to dismiss etc.)
 -Alert: Used extensively everywhere in app 
 
-UIDesign: very user friendly(with extensively use of alerts and deal with many different situations (no wifi, no app etc.), looks good on iPhone/ipod devices in all orientations, custom buttons, background etc.
+## UIDesign: 
+Very user friendly with extensively use of alerts and takes care of situations where the user has no wifi access or no photo sharing app installed.
+Looks good on iPhone/ipod devices in all orientations, custom buttons, background etc.
 
 
 
