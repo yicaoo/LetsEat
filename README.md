@@ -57,3 +57,11 @@ UIDesign
 ---
 Very user friendly with extensive use of alerts and takes care of situations where the user has no Wi-Fi access or no photo sharing app installed.
 Looks good on iPhone/iPod devices in all orientations, custom buttons, background etc.
+
+Example Screenshots
+---
+![simulator screen shot - iphone 7 - 2018-06-05 at 01 04 28](https://user-images.githubusercontent.com/32280834/46501471-74224100-c7da-11e8-990d-a1ca821aea2d.png)
+
+![simulator screen shot - iphone 7 - 2018-06-05 at 01 16 43](https://user-images.githubusercontent.com/32280834/46501495-89976b00-c7da-11e8-8e1a-c3b49097e16d.png)
+
+![simulator screen shot - iphone 7 - 2018-06-04 at 21 34 35](https://user-images.githubusercontent.com/32280834/46501526-a6cc3980-c7da-11e8-83f8-29cd9b306b9b.png)
