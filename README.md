@@ -2,7 +2,9 @@
 ![cutlery 1](https://user-images.githubusercontent.com/32280834/46499848-1a1f7c80-c7d6-11e8-8aed-c63e3d6d7a61.png)
 ---
 Language: Swift
-Creator&Designer&Programmer: Yi
+---
+Originally created, designed
+---
 Project Outline
 ---
 This application starts with an introduction of all its features, shown once to new users.
