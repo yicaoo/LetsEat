@@ -3,8 +3,6 @@
 ---
 Language: Swift
 ---
-Originally created, designed
----
 Project Outline
 ---
 This application starts with an introduction of all its features, shown once to new users.
